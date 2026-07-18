@@ -1,3 +1,24 @@
+/*
+====================================================================
+Project : Sakila DVD Rental Business Analysis
+File    : 05_window_functions_analysis.sql
+Author  : Lavanya Venukanti
+
+Description:
+This module demonstrates advanced SQL techniques using
+Common Table Expressions (CTEs) and Window Functions to
+solve complex business problems.
+
+Skills Demonstrated:
+- Common Table Expressions (CTEs)
+- ROW_NUMBER()
+- LAG()
+- Window Functions
+- Aggregate Functions
+- Running Totals
+- Ranking
+====================================================================
+*/
 -- =====================================================
 -- Question 1
 -- Business Question- Which customers generated the highest total revenue for the company?
@@ -196,4 +217,8 @@ group by month(payment_date), monthname(payment_date))
 select month_number, month_name, total_revenue,
 lag(total_revenue) over(order by month_number) as previous_month_revenue
 from monthly_revenue;
--- =====================================================
+/*
+====================================================================
+End of Module 5 - Advanced SQL with CTEs & Window Functions
+====================================================================
+*/

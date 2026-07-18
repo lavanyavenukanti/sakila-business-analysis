@@ -1,3 +1,24 @@
+/*
+====================================================================
+Project : Sakila DVD Rental Business Analysis
+File    : 02_customer_analysis.sql
+Author  : Lavanya Venukanti
+
+Description:
+This module analyzes customer behavior, spending patterns,
+payment activity, and geographic distribution to identify
+valuable customers and support business decision-making.
+
+Skills Demonstrated:
+- INNER JOIN
+- LEFT JOIN
+- GROUP BY
+- HAVING
+- Aggregate Functions
+- Subqueries
+- ORDER BY
+====================================================================
+*/
 -- =====================================================
 -- Question 6
 -- Business Question:
