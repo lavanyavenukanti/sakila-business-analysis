@@ -118,6 +118,68 @@ This project provides insights into:
 - Build an executive summary dashboard
 - Perform trend analysis and customer segmentation
 
+**<>Markdown**
+# Power BI Dashboard
+
+## Dashboard Overview
+
+After completing SQL analysis on the Sakila database, the data was transformed into an interactive Power BI dashboard to visualize key business metrics and trends.
+
+The dashboard helps analyze rental performance, customer behavior, revenue contribution, and film category performance.
+
+---
+
+## Dashboard Features
+
+### Key Performance Indicators (KPIs)
+
+- Total Revenue
+- Total Rentals
+- Total Customers
+- Average Rental Amount
+
+### Customer Analysis
+
+- Top customers by revenue
+- Customer rental activity
+- Customer contribution analysis
+
+### Revenue Analysis
+
+- Revenue performance
+- Payment trends
+- Store-level analysis
+
+### Film Analysis
+
+- Film category performance
+- Popular film categories
+- Rental patterns
+
+---
+
+## Power BI Dashboard Preview
+
+![Sakila Power BI Dashboard](screenshots/sakila_dashboard.png)
+
+---
+
+## Power BI Skills Demonstrated
+
+- Power Query for data transformation
+- Data modeling and relationships
+- DAX measures
+- KPI creation
+- Interactive slicers and filters
+- Business dashboard design
+
+---
+
+## Dashboard File
+
+Power BI dashboard file:
+
+`Sakila_Dashboard.pbix`
 ---
 
 ## 👩‍💻 Author
